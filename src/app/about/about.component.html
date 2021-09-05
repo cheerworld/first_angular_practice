@@ -1,2 +1,8 @@
 <h1>Cheer</h1>
 <p>about works!</p>
+
+<ul *ngFor="let animal of animalList">
+    <li>{{ animal.id }}</li>
+    <li>{{ animal.name }}</li>
+    <li>{{ animal.fed }}</li>
+</ul>
