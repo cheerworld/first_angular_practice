@@ -1,3 +1,4 @@
+/*
 export class About {
   id: number;
   name: string;
@@ -7,4 +8,10 @@ export class About {
     this.name = '';
     this.fed = true;
   }
+}
+*/
+export Interface About {
+  id: number;
+  name: string;
+  fed: boolean;
 }
